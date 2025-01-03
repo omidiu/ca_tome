@@ -6,7 +6,7 @@ This is the official implementation of **[Cached Adaptive Token Merging: Dynamic
 
 [Omid Saghatchian](), [Atiyeh Gh. Moghadam](https://github.com/atiyehghm), Ahmad Nickabadi  
 
-📁 _[GitHub](https://github.com/omidiu/ca_tome)_ | 📜 _[arXiv]()_ | 📖 _[BibTeX](#citation)_
+📁 _[GitHub](https://github.com/omidiu/ca_tome)_ | 📜 _[arXiv](https://arxiv.org/abs/2501.00946)_ | 📖 _[BibTeX](#citation)_
 
 ---
 
@@ -81,7 +81,7 @@ image.save("cat.png")
 
 ---
 
-## Citation 🖍️
+# Citation 🖍️
 If you use **CA-ToMe** or this codebase in your work, please cite:
 ```bibtex
 @article{ca_tome,
