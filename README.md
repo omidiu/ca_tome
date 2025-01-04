@@ -64,7 +64,7 @@ pip install ca-tome
 ## Usage 🚀
 ```python
 from diffusers import StableDiffusionPipeline
-from caa_v333 import apply_CA_ToMe, CacheConf
+from ca_tome import apply_CA_ToMe, CacheConf
 
 pipe = StableDiffusionPipeline.from_pretrained(
     "stable-diffusion-v1-5/stable-diffusion-v1-5",
@@ -81,7 +81,7 @@ image.save("cat.png")
 
 ---
 
-# Citation 🖍️
+## Citation 🖍️
 If you use **CA-ToMe** or this codebase in your work, please cite:
 ```bibtex
 @article{saghatchian2025cachedadaptivetokenmerging,
