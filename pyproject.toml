@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ca-tome"
-version = "0.1.0"
+version = "0.1.1"
 description = "Official implementation of CA-ToMe for stable diffusion models"
 authors = ["Omid Saghatchian <omidsaghatchian@gmail.com>, Atiyeh Gh. Moghadam <atiyeh1997@gmail.com>"]
 readme = "README.md"

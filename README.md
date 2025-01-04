@@ -77,8 +77,7 @@ image = pipe.call("A high quality photograph of a cat").images[0]
 image.save("cat.png")
 ```
 
-🔔 **Note**: All experiments were conducted on the `runwayml/stable-diffusion-v1-5` model, which is no longer supported on Hugging Face. 
-
+🔔 **Note**: All experiments were conducted on the `runwayml/stable-diffusion-v1-5` model, which is no longer supported on Hugging Face. Instead, we are using a mirror of the deprecated runwayml/stable-diffusion-v1-5 model.
 ---
 
 ## Citation 🖍️
