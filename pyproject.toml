@@ -1,10 +1,13 @@
 [tool.poetry]
 name = "ca-tome"
-version = "0.1.1"
+version = "0.1.2"
 description = "Official implementation of CA-ToMe for stable diffusion models"
 authors = ["Omid Saghatchian <omidsaghatchian@gmail.com>, Atiyeh Gh. Moghadam <atiyeh1997@gmail.com>"]
 readme = "README.md"
 packages = [{include = "ca_tome", from = "src"}]
+include = [
+    "statics/**/*"
+]
 
 [tool.poetry.dependencies]
 python = "^3.8"
