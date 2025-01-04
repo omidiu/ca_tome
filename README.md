@@ -84,9 +84,11 @@ image.save("cat.png")
 # Citation 🖍️
 If you use **CA-ToMe** or this codebase in your work, please cite:
 ```bibtex
-@article{ca_tome,
-  title={Cached Adaptive Token Merging: Dynamic Token Reduction and Redundant Computation Elimination in Diffusion Model},
-  author={Saghatchian, Omid and Moghadam, Atiyeh Gh. and Nickabadi, Ahmad},
-  journal={arXiv preprint arXiv:2303.17604},
-  year={2023}
+@article{saghatchian2025cachedadaptivetokenmerging,
+      title={Cached Adaptive Token Merging: Dynamic Token Reduction and Redundant Computation Elimination in Diffusion Model}, 
+      author={Omid Saghatchian and Atiyeh Gh. Moghadam and Ahmad Nickabadi},
+      year={2025},
+      eprint={2501.00946},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
 }
