@@ -62,7 +62,7 @@ def make_ca_tome_block(block_class: Type[torch.nn.Module]) -> Type[torch.nn.Modu
     This patch applies CA-ToMe to the forward function of the block.
     """
 
-    class AdaptiveToMeBlock(block_class):
+    class CaAdaptiveToMeBlock(block_class):
         # Save for unpatching later
         _parent = block_class
 
@@ -88,7 +88,7 @@ def make_ca_tome_block(block_class: Type[torch.nn.Module]) -> Type[torch.nn.Modu
 
             return x
 
-    return AdaptiveToMeBlock
+    return CaAdaptiveToMeBlock
 
 
 def make_diffusers_ca_tome_block(
@@ -99,7 +99,7 @@ def make_diffusers_ca_tome_block(
     This patch applies CA-ToMe to the forward function of the block.
     """
 
-    class AdaptiveToMeBlock(block_class):
+    class CaAdaptiveToMeBlock(block_class):
         # Save for unpatching later
         _parent = block_class
 
@@ -193,7 +193,7 @@ def make_diffusers_ca_tome_block(
 
             return hidden_states
 
-    return AdaptiveToMeBlock
+    return CaAdaptiveToMeBlock
 
 
 def hook_ca_tome_model(model: torch.nn.Module):
@@ -330,7 +330,7 @@ def remove_patch(model: torch.nn.Module):
                 hook.remove()
             module._ca_tome_info["hooks"].clear()
 
-        if module.__class__.__name__ == "AdaptiveToMeBlock":
+        if module.__class__.__name__ == "CaAdaptiveToMeBlock":
             module.__class__ = module._parent
 
     return model
