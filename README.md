@@ -1,6 +1,6 @@
 # Cached Adaptive Token Merging for Stable Diffusion 🎨✨
 
-![Comparison of CA-ToMe and ToMe and base model](./statics/images_comparisonn.webp)
+![Comparison of CA-ToMe and ToMe and base model](https://raw.githubusercontent.com/omidiu/ca_tome/main/statics/images_comparisonn.webp)
 
 This is the official implementation of **[Cached Adaptive Token Merging: Dynamic Token Reduction and Redundant Computation Elimination in Diffusion Model](https://arxiv.org/abs/2303.17604)**  
 
@@ -12,7 +12,7 @@ This is the official implementation of **[Cached Adaptive Token Merging: Dynamic
 
 ## CA-ToMe for Stable Diffusion 🚀🎨
 
-![How we apply caching to token merging](./statics/graphical_abstract.png)
+![How we apply caching to token merging](https://github.com/omidiu/ca_tome/raw/main/statics/graphical_abstract.png)
 
 Cached Adaptive Token Merging (**CA-ToMe**) combines two techniques to reduce spatial and temporal redundancy in diffusion models. 🌟 
 
